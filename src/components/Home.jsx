@@ -8,7 +8,7 @@ const Home = () => {
   return (
   <>
     <DotLottieReact
-      src='src\components\Animation - 1747210967603.lottie'
+      src='public\Animation - 1747210967603.lottie'
       loop
       autoplay
     />
