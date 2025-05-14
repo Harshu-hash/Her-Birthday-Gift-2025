@@ -9,8 +9,8 @@ const Home = () => {
       <div className="home-page">
         <div className="banner">
           <p className="banner-heading">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam
-            recusandae, quisquam quidem reprehenderit, ullam id totam!
+            Wishing the most beautiful girl — inside and out — the happiest
+            birthday. You deserve all the love this world can give.
           </p>
           <DotLottieReact
             className="Happy-birthday-animation"
