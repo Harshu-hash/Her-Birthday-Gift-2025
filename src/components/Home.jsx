@@ -34,6 +34,12 @@ const Home = () => {
             "Neha &#10084;&#65039;, Tum wo pehli ladki ho jisse maine itni dil se baatein ki hain, jiske saath maine apni har khushi, har takleef share ki hai. Tum mere liye sirf special nahi ho — tum meri zindagi ka wo hissa ho jiske saath main apna pura future dekhna chahta hoon."
           </p>
         </div>
+
+        <div className="humour eye-qoute">
+          <p>
+            Wese to ye sab banane se pehle maine bohot socha… ki karun ya na karun? Tumhe pasand aayega ya nahi? Kahi tum gussa to nahi ho jaogi?😅 Isliye maine zyada photos ka use nahi kiya😅. Lekin phir socha, chalo thoda sa risk to hero bhi le sakta hai… warna story boring ho jaayegi na!
+          </p>
+        </div>
       </div>
     </>
   );
