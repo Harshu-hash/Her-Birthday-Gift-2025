@@ -25,7 +25,7 @@ const Home = () => {
         </div>
         <div className="eye-qoute">
           <p>
-            "In her eyes, I see everything I never knew I was searching for —
+            "In your eyes, I see everything I never knew I was searching for —
             calm, fire, and a love that silences the noise of the world."
           </p>
         </div>
