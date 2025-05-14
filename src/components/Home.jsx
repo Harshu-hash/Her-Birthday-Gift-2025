@@ -37,7 +37,11 @@ const Home = () => {
 
         <div className="humour eye-qoute">
           <p>
-            Wese to ye sab banane se pehle maine bohot socha… ki karun ya na karun? Tumhe pasand aayega ya nahi? Kahi tum gussa to nahi ho jaogi?😅 Isliye maine zyada photos ka use nahi kiya😅. Lekin phir socha, chalo thoda sa risk to hero bhi le sakta hai… warna story boring ho jaayegi na!
+            Wese to ye sab banane se pehle maine bohot socha… ki karun ya nhi? Tumhe pasand aayega ya nahi? Kahi tum gussa to nahi ho jaogi?😅 Isliye maine zyada photos ka use nahi kiya😅. Lekin phir socha, chalo thoda sa risk to hero bhi le sakta hai… warna story boring ho jaayegi na!
+          </p>
+          <p>
+            Kher ye sab to thik hai… lekin asli magic to niche chhupa hai! 😏👇 maine hum dono ki ek choti si, pyaari si timeline banayi hai. I hope tumhe pasand aaye😅🤌.
+
           </p>
         </div>
       </div>
