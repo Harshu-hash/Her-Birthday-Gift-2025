@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
 
 body{
     background-color: rgb(247, 215, 220);
@@ -63,5 +60,18 @@ img{
     font-style: normal;
     color: #A93F55;
     font-size: 14px;
+    text-align: center;
+}
+
+.last-qoute{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #A93F55;
+    font-size: 16px;
     text-align: center;
 }

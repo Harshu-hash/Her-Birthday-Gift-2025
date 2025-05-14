@@ -29,6 +29,11 @@ const Home = () => {
             calm, fire, and a love that silences the noise of the world."
           </p>
         </div>
+        <div className="last-qoute">
+          <p>
+            "Tum wo pehli ladki ho jisse maine itni dil se baatein ki hain, jiske saath maine apne har ehsaas, har khushi, har takleef share ki hai. Tum mere liye sirf special nahi ho — tum meri zindagi ka wo hissa ho jiske saath main apna pura mustaqbil dekhna chahta hoon."
+          </p>
+        </div>
       </div>
     </>
   );
