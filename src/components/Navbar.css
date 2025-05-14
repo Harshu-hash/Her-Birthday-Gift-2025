@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Parisienne&display=swap");
+
+.nav-container{
+    height: auto;
+    width: 100%;
+    background-color:#A93F55 ;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+
+.logo{
+    width: 7%;
+    height: 7%;
+}
+
+.logo-heading{
+  font-family: "Parisienne", cursive;
+  font-weight: 200;
+  font-style: normal;
+  height: 100px;
+  font-size: 30px;
+  color: rgb(249, 203, 211);
+}
+
