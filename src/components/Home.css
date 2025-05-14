@@ -76,7 +76,7 @@ img {
   border-radius: 50px;
   padding: 5%;
   width: 90%;
-  margin-top: 4%;
+  margin-top: 6%;
   margin-left: 5%;
   font-family: "Sansita Swashed", system-ui;
   font-optical-sizing: auto;
@@ -94,7 +94,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 4%;
+  margin-top: 6%;
 }
 
 .hearts {
@@ -124,7 +124,7 @@ img {
 .humour {
   width: 80%;
   margin-left: 10%;
-  margin-top: 4%;
+  margin-top: 6%;
 }
 
 
