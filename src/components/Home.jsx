@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import us from "/images/1743332704262.webp.png";
+import hearts from '/images/two hearts.png'
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Home = () => {
@@ -33,6 +34,10 @@ const Home = () => {
           <p>
             "Neha &#10084;&#65039;, Tum wo pehli ladki ho jisse maine itni dil se baatein ki hain, jiske saath maine apni har khushi, har takleef share ki hai. Tum mere liye sirf special nahi ho — tum meri zindagi ka wo hissa ho jiske saath main apna pura future dekhna chahta hoon."
           </p>
+        </div>
+
+        <div className="two-hearts">
+          <img src={hearts} alt="" className="hearts" />
         </div>
 
         <div className="humour eye-qoute">

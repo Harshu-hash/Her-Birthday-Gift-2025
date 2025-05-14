@@ -80,6 +80,20 @@ img{
     text-align: center;
 }
 
+.two-hearts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.hearts{
+    height: 7%;
+    width: 7%;
+}
+
 .humour{
     width: 80%;
     margin-left: 10%;
