@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import us from "/images/1743332704262.webp.png";
 import hearts from '/images/two hearts.png'
+import balloon from '/images/air balloon with clouds.png'
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Home = () => {
@@ -49,6 +50,7 @@ const Home = () => {
 
           </p>
         </div>
+        
       </div>
     </>
   );
