@@ -31,7 +31,7 @@ const Home = () => {
         </div>
         <div className="last-qoute">
           <p>
-            "Tum wo pehli ladki ho jisse maine itni dil se baatein ki hain, jiske saath maine apni har khushi, har takleef share ki hai. Tum mere liye sirf special nahi ho — tum meri zindagi ka wo hissa ho jiske saath main apna pura future dekhna chahta hoon."
+            "Neha &#10084;&#65039;, Tum wo pehli ladki ho jisse maine itni dil se baatein ki hain, jiske saath maine apni har khushi, har takleef share ki hai. Tum mere liye sirf special nahi ho — tum meri zindagi ka wo hissa ho jiske saath main apna pura future dekhna chahta hoon."
           </p>
         </div>
       </div>
