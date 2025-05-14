@@ -53,3 +53,14 @@ img{
     border-radius: 50px;
     height: 99%;
 }
+
+.eye-qoute{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 30%;
+    font-family: "Delius Swash Caps";
+    font-weight: 600;
+    font-style: normal;
+    color: #A93F55;
+    font-size: 14px;
+}
