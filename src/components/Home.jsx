@@ -10,7 +10,7 @@ const Home = () => {
         <div className="banner">
           <p className="banner-heading">
             Wishing the most beautiful girl — inside and out — the happiest
-            birthday. You deserve all the love this world can give.
+            birthday. You deserve all the love this world can give...
           </p>
           <DotLottieReact
             className="Happy-birthday-animation"
