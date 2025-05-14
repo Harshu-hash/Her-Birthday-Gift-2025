@@ -5,6 +5,7 @@ import us from "/images/1743332704262.webp.png";
 import hearts from "/images/two hearts.png";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
+
 const Home = () => {
   const navigate = useNavigate()
 
@@ -12,7 +13,7 @@ const Home = () => {
     navigate('/timeline')
   }
   return (
-    <>
+    <>    
       <div className="home-page">
         <div className="banner">
           <p className="banner-heading">
