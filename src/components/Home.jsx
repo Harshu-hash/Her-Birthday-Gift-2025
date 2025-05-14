@@ -4,11 +4,14 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Home = () => {
   return <>
-  <DotLottieReact
-      src="\animations\HappyBirthday.lottie"
-      loop
-      autoplay
-    />
+  <div className="home-page">
+    <div className="banner">
+
+    
+  <p className="banner-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam recusandae, quisquam quidem reprehenderit, ullam id totam necessitatibus, sit numquam commodi molestias maiores quis modi quaerat magnam aliquid doloribus odio cupiditate eum eligendi? Ab, ipsa porro!!</p>
+  <DotLottieReact className="Happy-birthday-animation" src="\animations\HappyBirthday.lottie" loop autoplay />
+  </div>
+  </div>
   </>;
 };
 

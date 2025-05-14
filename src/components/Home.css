@@ -1,8 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
 
 
 body{
@@ -11,4 +16,22 @@ body{
 
 img{
     height: 500px;
+}
+
+.banner{
+    position: relative;
+}
+
+.Happy-birthday-animation{
+    display: block;
+}
+
+.banner-heading{
+    position: absolute;
+    width: 40%;
+    margin: 7%;
+    font-family: "Delius Swash Caps";
+    font-weight: 600;
+    font-style: normal;
+    color: #A93F55;
 }
