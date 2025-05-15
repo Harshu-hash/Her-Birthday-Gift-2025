@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap");
+
+.timeline-page{
+    display: grid;
+    text-align: center;
+}
+
+.timeline-heading{
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(107, 65, 56);
+    font-size: 30px;
+    margin-top: 3%;
+}
+
