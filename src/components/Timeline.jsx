@@ -162,7 +162,7 @@ const Timeline = () => {
             autoplay
           />
           <p className="date">
-            10<sup>th</sup> June 2023
+            10<sup>th</sup> June 2025
           </p>
           <p className="story red">
             Aaj ka din tumhare liye bohot special ho. Tum hamesha khush raho,
