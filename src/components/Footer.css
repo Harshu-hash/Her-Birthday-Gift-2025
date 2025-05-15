@@ -1,0 +1,45 @@
+.footer-container{
+    width: 100%;
+    background-color: #A93F55 ;
+    /* height: 0%; */
+    display: flex;
+}
+
+.ask-message{
+    font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: rgb(249, 203, 211);
+}
+
+.containe {
+    width: 70%;
+    background-color: #A93F55 ;
+    height: 118px;
+  display: flex;
+  flex-direction: column;
+  /* max-width: "400px"; */
+  margin: 20px auto;
+}
+.textarea {
+  padding: 10px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 10px;
+  height: 100px;
+}
+.send-button {
+    width: 20%;
+    margin-left: 40%;
+  padding: 10px;
+  font-size: 16p;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

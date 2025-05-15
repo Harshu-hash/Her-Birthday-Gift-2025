@@ -1,16 +1,118 @@
-@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Faculty+Glyphic&family=Merienda:wght@300..900&display=swap");
 
-.timeline-page{
-    display: grid;
+.timeline-page {
+  display: grid;
+  text-align: center;
+}
+
+.timeline-heading {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(107, 65, 56);
+  font-size: 30px;
+  margin-top: 3%;
+}
+
+.timeline-container{
+    margin-bottom: 15%;
+}
+
+.date {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.story {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 50px;
+  margin: 3%;
+  padding: 10%;
+  width: 80%;
+  margin-left: 10%;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.violet{
+    background-color: rgb(237, 161, 237);
+}
+
+.indigo{
+    background-color: rgb(193, 149, 225);
+}
+
+.blue{
+    background-color: rgb(182, 182, 237);
+}
+
+.green{
+    background-color: rgb(168, 244, 168);
+}
+
+.yellow{
+    background-color: rgb(244, 244, 166);
+}
+
+.orange{
+    background-color: rgb(248, 216, 157);
+}
+
+.red{
+    background-color: rgb(246, 172, 172);
+}
+
+.beige{
+    background-color: beige;
+}
+
+
+.back-button{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    will-change: box-shadow,transform;
+    background: #FCFCFD;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    height: 48px;
+    padding: 0 32px;
+    font-size: 18px;
+    border-radius: 6px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #36395a;
+    margin-bottom: 8%;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    :hover {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+        transform: translateY(-2px);
+    }
+    :active{
+        box-shadow: inset 0px 3px 7px #d6d6e7;
+        transform: translateY(2px);
+    }
+    
 }
 
-.timeline-heading{
-    font-family: "Emilys Candy", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(107, 65, 56);
-    font-size: 30px;
-    margin-top: 3%;
+.button-text{
+    padding-top: 10%;
+    font-family: cursive;
 }
-
