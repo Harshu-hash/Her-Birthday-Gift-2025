@@ -67,7 +67,7 @@ const Timeline = () => {
           data-aos-offset="200">
           <DotLottieReact
             className="Happy-birthday-animation"
-            src="\animations\BikeRide.lottie"
+            src="\animations\Bikeride.lottie"
             loop
             autoplay
           />
