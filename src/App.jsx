@@ -1,8 +1,10 @@
-import Home from './components/Home'
+import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './App.css'
+import Footer from './components/Footer';
+import ScrollToTop from "./components/ScrollToTop";
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './App.css';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import Timeline from './components/Timeline';
 import { Analytics } from "@vercel/analytics/react";
@@ -26,6 +28,7 @@ function App() {
       path: "/",
       element: (
         <>
+          <ScrollToTop />
           <Navbar />
           <Home />
           <Footer />
@@ -36,6 +39,7 @@ function App() {
       path: "/timeline",
       element: (
         <>
+          <ScrollToTop />
           <Navbar />
           <Timeline />
           <Footer />
