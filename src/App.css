@@ -28,7 +28,7 @@
   border-color: rgb(43, 226, 162);
   box-shadow: 0 0 8px rgba(74, 144, 226, 0.6);
   outline: none;
-  font-family: cursive;
+  font-family: "Delius Swash Caps";
 
 }
 
@@ -41,12 +41,12 @@
 
 .login-button {
   border-radius: 20px;
-  width: 35%;
-  height: 30px;
-  margin-top: 3%;
+  width: 55%;
+  margin-top: 4%;
+  height: 35px;
   background-color: rgb(247, 89, 26);
   border-color: rgb(251, 251, 3);
-  font-family: Chiller;
+  font-family: "Sansita Swashed", system-ui;
   font-size: 20px;
   color: wheat;
 }
