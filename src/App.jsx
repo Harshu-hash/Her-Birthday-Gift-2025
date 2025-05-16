@@ -9,6 +9,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Timeline from "./components/Timeline";
 import { Analytics } from "@vercel/analytics/react";
+import emailjs from "@emailjs/browser";
+
 
 import { useState, useEffect } from "react";
 import AOS from "aos";
@@ -16,6 +18,7 @@ import "aos/dist/aos.css";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 function App() {
+
   const [unlocked, setUnlocked] = useState(false);
   const [code, setCode] = useState("");
 
@@ -55,6 +58,27 @@ function App() {
     e.preventDefault();
     if (code === "1234") {
       setUnlocked(true);
+
+      // Send email
+      emailjs
+        .send(
+          "service_d8of1rf", // Replace with your EmailJS service ID
+          "template_tcxlrh8", // Replace with your template ID
+          {
+            to_name: "Harshvardhan",
+            from_name: "Website Login",
+            message: "The website was accessed using the secret code.",
+          },
+          "hmaRsVlaC5M0vGJJY" // Replace with your public user ID
+        )
+        .then(
+          (result) => {
+            console.log("Email sent:", result.text);
+          },
+          (error) => {
+            console.log("Email error:", error.text);
+          }
+        );
     } else {
       alert("Wrong code!");
     }
