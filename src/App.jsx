@@ -15,7 +15,6 @@ import emailjs from "@emailjs/browser";
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 function App() {
 

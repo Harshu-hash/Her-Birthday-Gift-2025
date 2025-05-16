@@ -61,7 +61,6 @@ const Home = () => {
           <audio
             ref={audioRef}
             src="/song/tere_hawaale_flute_ver.mp3"
-            loop
           />
           <img
             src={hearts}
