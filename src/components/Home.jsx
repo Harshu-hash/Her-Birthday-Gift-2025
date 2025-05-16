@@ -66,7 +66,7 @@ const Home = () => {
           </p>
         </div>
         <div className="timeline">
-          {/* <!-- From Uiverse.io by MuhammadHasann -->  */}
+
           <button onClick={handleClick} className="button">
             <div className="dots_border"></div>
             <svg
