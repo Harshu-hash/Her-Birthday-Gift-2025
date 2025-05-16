@@ -60,7 +60,7 @@ const Home = () => {
         <div className="two-hearts">
           <audio
             ref={audioRef}
-            src="/public/song/tere_hawaale_flute_ver.mp3"
+            src="/song/tere_hawaale_flute_ver.mp3"
             loop
           />
           <img
