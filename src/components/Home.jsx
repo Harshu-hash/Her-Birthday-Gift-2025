@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import { useNavigate } from 'react-router-dom'
 import "./Home.css";
 import us from "/images/1743332704262.webp.png";
@@ -7,6 +8,15 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 
 const Home = () => {
+
+  const audioRef = useRef(null);
+
+  const handlePlay = () => {
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+  };
+
   const navigate = useNavigate()
 
   const handleClick = () => {
@@ -48,7 +58,17 @@ const Home = () => {
         </div>
 
         <div className="two-hearts">
-          <img src={hearts} alt="" className="hearts" />
+          <audio
+            ref={audioRef}
+            src="/public/song/tere_hawaale_flute_ver.mp3"
+            loop
+          />
+          <img
+            src={hearts}
+            alt="Play Music"
+            className="hearts"
+            onClick={handlePlay}
+          />
         </div>
 
         <div className="humour eye-qoute">
@@ -66,7 +86,6 @@ const Home = () => {
           </p>
         </div>
         <div className="timeline">
-
           <button onClick={handleClick} className="button">
             <div className="dots_border"></div>
             <svg

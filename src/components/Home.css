@@ -84,6 +84,10 @@ img {
   text-align: center;
 }
 
+audio {
+  display: none; /* Hide controls */
+}
+
 .two-hearts {
   width: 100%;
   display: flex;
