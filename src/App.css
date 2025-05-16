@@ -28,6 +28,8 @@
   border-color: rgb(43, 226, 162);
   box-shadow: 0 0 8px rgba(74, 144, 226, 0.6);
   outline: none;
+  font-family: cursive;
+
 }
 
 .code-input:focus {
@@ -44,23 +46,7 @@
   margin-top: 3%;
   background-color: rgb(247, 89, 26);
   border-color: rgb(251, 251, 3);
+  font-family: Chiller;
+  font-size: 20px;
+  color: wheat;
 }
-
-
-/* .create-animation{
-    position: relative;
-  width: 300px; 
-  height: 300px;
-}
-
-.wlcm-cntanr{
-    position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.welcome-animation{
-    z-index: 2;
-    width: 500px;
-} */
