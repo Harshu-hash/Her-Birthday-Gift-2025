@@ -80,7 +80,7 @@ const Home = () => {
           </p>
           <p>
             Kher ye sab to thik hai… lekin asli magic to niche chhupa hai! 😏👇
-            maine hum dono ki ek choti si, pyaari si timeline banayi hai. I hope
+            mene hum dono ki ek choti si, pyaari si timeline banayi hai. I hope
             tumhe pasand aaye😅🤌.
           </p>
         </div>
