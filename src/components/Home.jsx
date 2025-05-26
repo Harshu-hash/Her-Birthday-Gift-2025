@@ -50,10 +50,10 @@ const Home = () => {
         <div className="last-qoute">
           <p>
             "Neha &#10084;&#65039;, Tum wo pehli ladki ho jisse maine itni dil
-            se baatein ki hain, jiske saath maine apni har khushi, har takleef
+            se baatein ki hai, jiske saath mene apni har khushi, har takleef
             share ki hai. Tum mere liye sirf special nahi ho — tum meri zindagi
-            ka wo hissa ho jiske saath main apna pura future dekhna chahta
-            hoon."
+            ka wo hissa ho jiske saath me apna pura future dekhna chahta
+            hu."
           </p>
         </div>
 
@@ -72,11 +72,11 @@ const Home = () => {
 
         <div className="humour eye-qoute">
           <p>
-            Wese to ye sab banane se pehle maine bohot socha… ki karun ya nhi?
-            Tumhe pasand aayega ya nahi? Kahi tum gussa to nahi ho jaogi?😅
-            Isliye maine zyada photos ka use nahi kiya😅. Lekin phir socha,
+            Wese to ye sab banane se pehle mene bohot socha… ki karu ya nhi?
+            Tumhe pasand aayega ya nhi? Kahi tum gussa to nhi ho jaogi?😅
+            Isliye mene zyada photos ka use nahi kiya😅. Lekin phir socha,
             chalo thoda sa risk to hero bhi le sakta hai… warna story boring ho
-            jaayegi na!
+            jayegi naa!
           </p>
           <p>
             Kher ye sab to thik hai… lekin asli magic to niche chhupa hai! 😏👇

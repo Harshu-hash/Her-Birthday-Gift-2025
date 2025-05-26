@@ -29,9 +29,9 @@ const Timeline = () => {
             27<sup>th</sup> November 2023
           </p>
           <p className="story violet">
-            Wo din jab maine tumhe pehli baar dekha tha. Shreemad Bhagwat Katha
+            Wo din jab mene tumhe pehli baar dekha tha. Shreemad Bhagwat Katha
             ka wo aakhri din mere liye kuch aur hi ban gaya — bas ek katha ka
-            ant hua, aur hamri kahani ki shuruaat ho gayi. 💫
+            ant hua, aur hamri kahani ki shuruaat hui. 💫
           </p>
           <div className="line"></div>
         </div>
@@ -51,7 +51,7 @@ const Timeline = () => {
             27<sup>th</sup> December 2023
           </p>
           <p className="story indigo">
-            Jab main pehli baar tumse milne tumhare college aaya tha. Aur kya
+            Jab me pehli baar tumse milne tumhare college aaya tha. Aur kya
             kamaal ka coincidence tha — hum dono ek dusre ke liye chocolates
             lekar aaye the! 🍫 Lekin us din tumhare haathon se bana hua gajar ka
             halwa… woh mere liye sirf ek sweet nahi, meri favourite dish ban
@@ -75,7 +75,7 @@ const Timeline = () => {
             27<sup>th</sup> December 2023
           </p>
           <p className="story blue">
-            Jab hum pehli baar tumhari scooty se Iserthuni ke Panchmukhi Shree
+            Jab hum pehli baar tumhari scooty se Isarthuni ke Panchmukhi Shree
             Ganesh Mandir ghumne gaye the — wo ride, aur wo khushi… sab kuch
             milkar meri zindagi ka ek sabse khoobsurat pal ban gaya. 🚦🛵💫
           </p>
@@ -97,8 +97,8 @@ const Timeline = () => {
             21<sup>st</sup>March 2024
           </p>
           <p className="story green">
-            Jab hum pehli baar sath me movie🎬 dekhne gaye the. Log theatre mein
-            story dekh rahe the, aur main? Mujhe to aaj tak yaad hi nahi movie
+            Jab hum pehli baar sath me movie🎬 dekhne gaye the. Log theatre me
+            story dekh rahe the, aur me? Mujhe to aaj tak yaad hi nhi movie
             kis baare mein thi😅 — kyunki mera pura concentration sirf tum par
             tha.❤️
           </p>
@@ -120,7 +120,7 @@ const Timeline = () => {
             27<sup>th</sup> July 2024
           </p>
           <p className="story yellow">
-            jab maine pehli baar tumhe Snapchat par propose kiya tha. I know,
+            jab mene pehli baar tumhe Snapchat par propose kiya tha. I know,
             propose karne ka tareeka thoda ajeeb bhi ho sakta hai. 😅 Lekin usme
             meri saari himmat thi, saara pyaar tha 💌📱.
           </p>
@@ -139,10 +139,10 @@ const Timeline = () => {
             autoplay
           />
           <p className="date">
-            4<sup>th</sup> March 2025
+            4<sup>th</sup> May 2025
           </p>
           <p className="story orange">
-            Jab main pehli baar apni family ke saath tumhare ghar aaya. Us din
+            Jab me pehli baar apni family ke saath tumhare ghar aaya. Us din
             kuch alag hi feeling thi — thoda sharmaana, thoda excitement, aur
             dil ke kone mein ek chhoti si khushi… ki sab kuch ek nayi shuruaat
             ki taraf badh raha hai. 🏡✨
@@ -166,8 +166,8 @@ const Timeline = () => {
           </p>
           <p className="story red">
             Aaj ka din tumhare liye bohot special ho. Tum hamesha khush raho,
-            safal raho aur life mein jitni chizein chaho, sab milein. Isi tarah
-            muskurate raho, grow karte raho. May this year bring you lots of
+            safal raho aur life me jitni chizein chaho, sab mile. Isi tarah
+            muskurati raho, grow karti raho. May this year bring you lots of
             happiness and peace! 🌟
           </p>
           <div className="line"></div>
@@ -186,10 +186,10 @@ const Timeline = () => {
           />
           <p className="date">Future is loading...</p>
           <p className="story beige">
-            Or jab main future ki baat karta hoon… toh usme sirf ek chehra hota
-            hai — tumhara💖. Main tumhara har ek dream pura karne mein tumhara
-            saath dena chahta hoon, har kadam par tumhare saath chalna chahta
-            hoon. 💫❤️
+            Or jab main future ki baat karta hu… toh usme sirf ek chehra hota
+            hai — tumhara💖. Me tumhara har ek dream pura karne mein tumhara
+            saath dena chahta hu, har kadam par tumhare saath chalna chahta
+            hu. 💫❤️
           </p>
         </div>
         <div className="button-tag">
