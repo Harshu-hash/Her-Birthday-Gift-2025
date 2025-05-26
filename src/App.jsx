@@ -55,7 +55,7 @@ function App() {
   // Check input code
   const handleUnlock = (e) => {
     e.preventDefault();
-    if (code === "1234") {
+    if (code === "Nehe@rt") {
       setUnlocked(true);
 
       // Send email
