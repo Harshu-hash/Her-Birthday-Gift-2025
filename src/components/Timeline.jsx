@@ -26,7 +26,7 @@ const Timeline = () => {
             autoplay
           />
           <p className="date">
-            27<sup>th</sup> November 2023
+            24<sup>th</sup> November 2023
           </p>
           <p className="story violet">
             Wo din jab mene tumhe pehli baar dekha tha. Shreemad Bhagwat Katha
