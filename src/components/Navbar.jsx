@@ -10,17 +10,15 @@ const Navbar = () => {
       navigate('/')
     }
   return (
-    <div className='navbar'>
-
-          <div className="nav-container">
-        
-            <img className='logo' src={logo} alt="" onClick={handleClick} />
-        <div className="logo-heading">
+    <div className="navbar">
+      <div className="nav-container">
+        <img className="logo" src={logo} alt="" onClick={handleClick} />
+        <div onClick={handleClick} className="logo-heading">
           <h3>Neheart</h3>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Navbar

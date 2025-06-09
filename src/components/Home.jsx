@@ -22,6 +22,11 @@ const Home = () => {
   const handleClick = () => {
     navigate('/timeline')
   }
+
+
+  const handleClickProposal = () => {
+    navigate("/proposal");
+  };
   return (
     <>
       <div className="home-page">
@@ -52,16 +57,12 @@ const Home = () => {
             "Neha &#10084;&#65039;, Tum wo pehli ladki ho jisse maine itni dil
             se baatein ki hai, jiske saath mene apni har khushi, har takleef
             share ki hai. Tum mere liye sirf special nahi ho — tum meri zindagi
-            ka wo hissa ho jiske saath me apna pura future dekhna chahta
-            hu."
+            ka wo hissa ho jiske saath me apna pura future dekhna chahta hu."
           </p>
         </div>
 
         <div className="two-hearts">
-          <audio
-            ref={audioRef}
-            src="/song/tere_hawaale_flute_ver.mp3"
-          />
+          <audio ref={audioRef} src="/song/tere_hawaale_flute_ver.mp3" />
           <img
             src={hearts}
             alt="Play Music"
@@ -73,10 +74,9 @@ const Home = () => {
         <div className="humour eye-qoute">
           <p>
             Wese to ye sab banane se pehle mene bohot socha… ki karu ya nhi?
-            Tumhe pasand aayega ya nhi? Kahi tum gussa to nhi ho jaogi?😅
-            Isliye mene zyada photos ka use nahi kiya😅. Lekin phir socha,
-            chalo thoda sa risk to hero bhi le sakta hai… warna story boring ho
-            jayegi naa!
+            Tumhe pasand aayega ya nhi? Kahi tum gussa to nhi ho jaogi?😅 Isliye
+            mene zyada photos ka use nahi kiya😅. Lekin phir socha, chalo thoda
+            sa risk to hero bhi le sakta hai… warna story boring ho jayegi naa!
           </p>
           <p>
             Kher ye sab to thik hai… lekin asli magic to niche chhupa hai! 😏👇
@@ -115,6 +115,12 @@ const Home = () => {
                 d="M6.5 4L6.303 4.5915C6.24777 4.75718 6.15472 4.90774 6.03123 5.03123C5.90774 5.15472 5.75718 5.24777 5.5915 5.303L5 5.5L5.5915 5.697C5.75718 5.75223 5.90774 5.84528 6.03123 5.96877C6.15472 6.09226 6.24777 6.24282 6.303 6.4085L6.5 7L6.697 6.4085C6.75223 6.24282 6.84528 6.09226 6.96877 5.96877C7.09226 5.84528 7.24282 5.75223 7.4085 5.697L8 5.5L7.4085 5.303C7.24282 5.24777 7.09226 5.15472 6.96877 5.03123C6.84528 4.90774 6.75223 4.75718 6.697 4.5915L6.5 4Z"></path>
             </svg>
             <span className="text_button">Watch Timeline..........</span>
+          </button>
+        </div>
+
+        <div className="Proposal-btn">
+          <button onClick={handleClickProposal} className="ripple-btn">
+            <i className="animation"></i>Proposal 👀<i class="animation"></i>
           </button>
         </div>
       </div>

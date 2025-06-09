@@ -15,6 +15,7 @@ import emailjs from "@emailjs/browser";
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ProposalPage from "./components/ProposalPage";
 
 function App() {
 
@@ -51,11 +52,22 @@ function App() {
         </>
       ),
     },
+    {
+      path: "/proposal",
+      element: (
+        <>
+          <ScrollToTop />
+          <Navbar />
+          <ProposalPage />
+          <Footer />
+        </>
+      ),
+    },
   ]);
   // Check input code
   const handleUnlock = (e) => {
     e.preventDefault();
-    if (code === "Nehe@rt") {
+    if (code === "Nehe@rt<3") {
       setUnlocked(true);
 
       // Send email
