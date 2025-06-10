@@ -45,7 +45,7 @@ const ProposalPage = () => {
     <div className="proposal-container">
       <DotLottieReact
         className="Happy-birthday-animation"
-        src="\Animation - 1749405480885.lottie"
+        src="\animations\ProposalHearts.lottie"
         loop
         autoplay
       />
